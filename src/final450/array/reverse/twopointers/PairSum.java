@@ -21,6 +21,9 @@ public class PairSum {
         List<Integer> arr = Arrays.asList(2, 3, 5, 8, 9, 10, 11);
         int val = 17;
         int arrSize = arr.size();
-        System.out.println(isPairSum(arr, arrSize, val));
+        System.out.println(isPairSum(arr, arrSize, val) != 0);
     }
 }
+
+//Time O(n log n)
+//Space O(1)
